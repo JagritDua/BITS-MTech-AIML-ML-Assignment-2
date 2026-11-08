@@ -1,0 +1,65 @@
+{
+  "dataset_rows": 13611,
+  "feature_count": 16,
+  "target_column": "Class",
+  "class_names": [
+    "BARBUNYA",
+    "BOMBAY",
+    "CALI",
+    "DERMASON",
+    "HOROZ",
+    "SEKER",
+    "SIRA"
+  ],
+  "train_rows": 10888,
+  "test_rows": 2723,
+  "random_state": 42,
+  "winner_by_macro_f1": "Support Vector Machine",
+  "metrics": [
+    {
+      "Model": "Logistic Regression",
+      "Accuracy": 0.9166360631656262,
+      "AUC": 0.9946832183176296,
+      "Precision": 0.9304713158360409,
+      "Recall": 0.9308753654798796,
+      "F1": 0.9302570155653854,
+      "MCC": 0.8996218860257422
+    },
+    {
+      "Model": "Decision Tree",
+      "Accuracy": 0.8920308483290489,
+      "AUC": 0.9520623243642331,
+      "Precision": 0.9059003816105734,
+      "Recall": 0.9079628253808595,
+      "F1": 0.9068682111209502,
+      "MCC": 0.8695605356200006
+    },
+    {
+      "Model": "K-Nearest Neighbors",
+      "Accuracy": 0.9166360631656262,
+      "AUC": 0.9859597728243451,
+      "Precision": 0.9318252615343486,
+      "Recall": 0.9271411966523412,
+      "F1": 0.9292369009754428,
+      "MCC": 0.8992048676004467
+    },
+    {
+      "Model": "Gaussian Naive Bayes",
+      "Accuracy": 0.8979067205288285,
+      "AUC": 0.9916140133662351,
+      "Precision": 0.9112374978297467,
+      "Recall": 0.9092384546214823,
+      "F1": 0.9091099074457399,
+      "MCC": 0.8772632840842779
+    },
+    {
+      "Model": "Support Vector Machine",
+      "Accuracy": 0.9254498714652957,
+      "AUC": 0.994866700914776,
+      "Precision": 0.9368920082841206,
+      "Recall": 0.9377154719895244,
+      "F1": 0.9371780399788321,
+      "MCC": 0.9100341462847895
+    }
+  ]
+}
